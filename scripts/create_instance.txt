@@ -1,0 +1,1 @@
+gcloud compute instances create my-instance --image-family=rhel-8 --image-project=rhel-cloud --zone=us-central1-a
