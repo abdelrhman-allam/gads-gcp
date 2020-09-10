@@ -1,1 +1,3 @@
 gcloud compute instances create my-instance --image-family=rhel-8 --image-project=rhel-cloud --zone=us-central1-a
+
+gcloud alpha compute instances create my-instance-1 --zone=central1-a --shielded-secure-boot --shielded-vtpm --shielded-integrity-monitoring
